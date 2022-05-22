@@ -9,6 +9,8 @@ It's the updated version of the whiteboard app.
 
 https://youtu.be/Jc1Nv6Klbw4
 
+https://user-images.githubusercontent.com/88960105/169706757-8c39d5b6-0d03-4b82-8ef1-cc91b209c433.mp4
+
 
 ## Features
 
