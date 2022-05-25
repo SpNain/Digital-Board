@@ -1,17 +1,16 @@
-# Digital Board (https://digitalboard.netlify.app)
+# Digital Board   &nbsp;    [live](https://digitalboard.netlify.app)
 
 Digital boards in classrooms allow teachers and students to access a wide range of educational resources available online, from videos to texts to animations and apps. This allows the teacher to use both audio and visuals to explain the lesson to the class.
 It's the updated version of the whiteboard app.
 
 
-## Demo
+## Demo &nbsp;<a href="https://youtu.be/Jc1Nv6Klbw4" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="hardeep nain" height="30" width="40" /></a>
 
-https://youtu.be/Jc1Nv6Klbw4
 
 https://user-images.githubusercontent.com/88960105/169706757-8c39d5b6-0d03-4b82-8ef1-cc91b209c433.mp4
 
 
-## Features
+## Features 📝
 
 - It has light and dark themes and toggling themes also manage pen & eraser colors and alter them according to the theme. 
 - You can draw with diff pen sizes and colors. 
@@ -23,6 +22,6 @@ https://user-images.githubusercontent.com/88960105/169706757-8c39d5b6-0d03-4b82-
 - After you are done with your work, you can download canvas also. 
 - On toggling in dark and light theme, colors, canvas, etc. managed according to the theme.
 
-## Tech Stack
+## Tech Stack ⚒
 
 **HTML,CSS,JavaScript & Canvas API**
