@@ -4,7 +4,7 @@ Digital boards in classrooms allow teachers and students to access a wide range 
 It's the updated version of the whiteboard app.
 
 
-## Demo &nbsp;<a href="https://youtu.be/Jc1Nv6Klbw4" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="hardeep nain" height="30" width="40" /></a>
+## Demo &nbsp;<a href="https://youtu.be/Jc1Nv6Klbw4" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="hardeep nain" height="30" width="40" /></a>
 
 
 https://user-images.githubusercontent.com/88960105/169706757-8c39d5b6-0d03-4b82-8ef1-cc91b209c433.mp4
