@@ -1,4 +1,4 @@
-# Digital Board <a href="https://digitalboard.netlify.app" target="_blank"><img align="center" src="../../../../../Readme/Icons/icons8-external-link-64.png" alt="live link" height="30" width="40" /></a>
+# Digital Board <a href="https://digitalboard.netlify.app" target="_blank"><img align="center" src="./Img-Icons/icons8-external-link-64.png" alt="live link" height="30" width="40" /></a>
 
 Digital boards in classrooms allow teachers and students to access a wide range of educational resources available online, from videos to texts to animations and apps. This allows the teacher to use both audio and visuals to explain the lesson to the class.
 It's the updated version of the whiteboard app.

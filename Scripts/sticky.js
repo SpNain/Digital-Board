@@ -53,7 +53,7 @@ function addSticky(imageElement) {
     
     let msDiv = document.createElement('div');
     msDiv.classList.add('msdiv');
-    msDiv.innerHTML += `<img class="s-img" src="./s-img.png" alt="">`;
+    msDiv.innerHTML += `<img class="s-img" src="../Img-Icons/s-img.png" alt="">`;
 
     msDiv.addEventListener('click', function () {
       stickyDiv.style.display = "block";
