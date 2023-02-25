@@ -3,13 +3,13 @@ let redo = document.querySelector("#redo");
 undo.addEventListener("click", undoLine);
 redo.addEventListener("click", redoLine);
 
-function undoLine() {
+function undoLine() {  // [#1]
   if (linesDB.length) {
     let undoLine = linesDB.pop();
     redoLinesDB.push(undoLine);
-
-    // clear canvas
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // console.log(redoLinesDB);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear entire canvas
 
     drawLinesFromDB();
   }
@@ -62,3 +62,4 @@ function drawLinesFromDB() {
   ctx.lineWidth = currentLineWidth;
   ctx.strokeStyle = currentStrokeStyle;
 }
+
