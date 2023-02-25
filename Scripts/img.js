@@ -12,7 +12,7 @@ photoUploadInput.addEventListener("change", function (event) {   // jis element 
   console.log(fileObj);
   let filePath = URL.createObjectURL(fileObj, { type: "image/jpg" }); // convert obj into a path
   let img = document.createElement("img");
-  img.setAttribute("src", filePath);   // setAttribute : set the attribute of the element.
+  img.setAttribute("src", filePath); // setAttribute : set the attribute of the element.
   img.classList.add("sticky-image");
   addSticky(img);
 });
