@@ -3,12 +3,12 @@ let redo = document.querySelector("#redo");
 undo.addEventListener("click", undoLine);
 redo.addEventListener("click", redoLine);
 
-function undoLine() { // [#1]
+function undoLine() {
     if (linesDB.length) {
         let undoLine = linesDB.pop();
         redoLinesDB.push(undoLine);
         redo.classList.remove('fade');
-        ctx.clearRect(0, 0, canvas.width, canvas.height); // clear entire canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         drawLinesFromDB();
     }
@@ -39,8 +39,6 @@ function redoLine() {
         ctx.lineWidth = currentLineWidth;
         ctx.strokeStyle = currentStrokeStyle;
 
-        // har lines ke redo hone ke baad ye condition check hogi
-        // aur jab last line redoLinesDB me se nikl ke redo ho jaayegi uske baad ye condition true ho jaayegi aur redo tool fade ho jaayega
         if (redoLinesDB.length == 0) {
             redo.classList.add('fade');
         }
@@ -72,9 +70,7 @@ function drawLinesFromDB() {
 }
 
 
-// linesDB aur redoLinesDB me pointObject kr strokStyle change krta hai theme change hone pe
-// aur fir last me drawLinesFromDB ko call lga deta hai jisse lines draw ho jaati hai with updated strokeStyles
-function alterPointObjectStroke() {  //[#1]
+function alterPointObjectStroke() {
     for (let i = 0; i < linesDB.length; i++) {
         let line = linesDB[i];
         for (let i = 0; i < line.length; i++) {
@@ -122,10 +118,3 @@ function alterPointObjectStroke() {  //[#1]
     drawLinesFromDB();
     
 }
-
-/*
-#1. isme pointObject pe dono jagah same kaam ho rha hai
-to hum ek nya fxn bnake usme pointObject pass krke usme bhi yahi lines likh skte hai 
-aur same code 2 jagah likhne ki bjaye ek jagah likhne se kaam chal skta hai
-bas us fxn ko 2 baal alag alag jagah call lg jaayegi
-*/

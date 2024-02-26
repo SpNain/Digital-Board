@@ -15,10 +15,7 @@ let currentEraserSize = 1;
 let currentEraserColor = 'white';
 
 penSize.addEventListener("change", function() {
-    // handle pen size
     let penSizeValue = penSize.value;
-    // console.log(penSizeValue);
-    // pensize set hoga
     currentPenSize = penSizeValue;
     ctx.lineWidth = currentPenSize;
 });
@@ -33,24 +30,15 @@ for (let i = 0; i < penColors.length; i++) {
     penColors[i].addEventListener("click", function(e) {
         let penColor = e.target.className;
         currentPenColor = penColor;
-        ctx.strokeStyle = currentPenColor; // for lines
+        ctx.strokeStyle = currentPenColor;
     });
 }
 
 pen.addEventListener("click", function() {
     if (pen.classList.contains("active-tool")) {
-        // pen already active hai
-        // pen tool options open honge
-        // if (penOptions.classList.contains("hide")) {
-        //   penOptions.classList.remove("hide"); // remove hide class from penOptions
-        // } else {
-        //   penOptions.classList.add("hide");
-        // }
 
         penOptions.classList.toggle("hide");
     } else {
-        // pen is not active
-        // make pen active
         eraser.classList.remove("active-tool");
         eraser.classList.add("fade");
         eraserOptions.classList.add("hide");
@@ -65,16 +53,9 @@ pen.addEventListener("click", function() {
 
 eraser.addEventListener("click", function() {
     if (eraser.classList.contains("active-tool")) {
-        // eraser already active
-        // if (eraserOptions.classList.contains("hide")) {
-        //   eraserOptions.classList.remove("hide"); // remove hide class from penOptions
-        // } else {
-        //   eraserOptions.classList.add("hide");
-        // }
 
         eraserOptions.classList.toggle("hide");
     } else {
-        // eraser not active
         pen.classList.remove("active-tool");
         pen.classList.add("fade");
         penOptions.classList.add("hide");

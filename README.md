@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/88960105/169706757-8c39d5b6-0d03-4b82-
 
 - User can download his work using download option given in the application to save his work in local system.
 
-- This web digital board application have both light and dark themes. Pen colors, eraser color, black and white lines, canvas, etc. gets managed according to the theme when you switch between dark and light themes.
+- This web digital board application supports both light and dark themes. Pen colors, eraser color, black and white lines, canvas, etc. gets managed according to the theme when you switch between dark and light themes.
 
 ## Tech Stack ⚒
 
